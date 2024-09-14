@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="study_project:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="14fac4fc-3010-456c-8151-5578e76de4d1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.study/controller/PeoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/js/crriculum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/js/response_crriculum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/study_project_war_exploded2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.study/controller/Code.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/controller/Code.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.study/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.study/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.study/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.study/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.study/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/page/Signin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/study/controller/Code.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/controller/Code.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/study/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/study/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/study/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/study/service/impl/CourseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/service/impl/CourseServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/study/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/css/Signin.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/css/Signin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/js/response_crriculum.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/js/response_crriculum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nodemodule/axios/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nodemodule/axios/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nodemodule/axios/SECURITY.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nodemodule/axios/SECURITY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nodemodule/axios/dist/esm/axios.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nodemodule/axios/dist/esm/axios.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nodemodule/axios/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nodemodule/axios/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/adapters/adapters.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/adapters/adapters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/cancel/CancelToken.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/cancel/CancelToken.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/cancel/CanceledError.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/cancel/CanceledError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/core/AxiosHeaders.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/core/AxiosHeaders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/core/InterceptorManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/core/InterceptorManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/defaults/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/defaults/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/env/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/env/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/helpers/callbackify.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/helpers/callbackify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/helpers/combineURLs.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/helpers/combineURLs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/helpers/deprecatedMethod.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/helpers/deprecatedMethod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/helpers/readBlob.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/helpers/readBlob.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/helpers/toFormData.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/helpers/toFormData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/platform/browser/classes/FormData.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nodemodule/axios/lib/platform/browser/classes/FormData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nodemodule/carhartl-jquery-cookie-v1.4.1/.jshintrc" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nodemodule/carhartl-jquery-cookie-v1.4.1/.jshintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nodemodule/carhartl-jquery-cookie-v1.4.1/cookie.jquery.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/nodemodule/carhartl-jquery-cookie-v1.4.1/cookie.jquery.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/com/study/controller/Code.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/com/study/controller/Code.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/com/study/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/com/study/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/com/study/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/com/study/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/com/study/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/com/study/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/com/study/service/impl/CourseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/com/study/service/impl/CourseServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/com/study/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/com/study/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/js/Signin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/js/Signin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/js/response_Signin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/js/response_Signin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/js/response_crriculum.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/js/response_crriculum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/SECURITY.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/SECURITY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/dist/esm/axios.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/dist/esm/axios.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/dist/node/axios.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/dist/node/axios.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/adapters/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/adapters/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/adapters/adapters.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/adapters/adapters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/cancel/CanceledError.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/cancel/CanceledError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/core/InterceptorManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/core/InterceptorManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/core/transformData.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/core/transformData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/defaults/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/defaults/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/helpers/AxiosURLSearchParams.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/helpers/AxiosURLSearchParams.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/helpers/bind.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/helpers/bind.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/helpers/null.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/helpers/null.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/helpers/toFormData.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/helpers/toFormData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/helpers/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/helpers/validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/platform/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/platform/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/platform/node/classes/FormData.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/platform/node/classes/FormData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/platform/node/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/platform/node/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/axios/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/carhartl-jquery-cookie-v1.4.1/.jshintrc" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/carhartl-jquery-cookie-v1.4.1/.jshintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/carhartl-jquery-cookie-v1.4.1/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/WEB-INF/classes/nodemodule/carhartl-jquery-cookie-v1.4.1/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/study_project-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire/surefirebooter3336487630126112444.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire/surefirebooter6450345896564124949.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7933872972487484791.jar" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2X2EU4XUofepyJpdVYVIEs3jVlD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/study_project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "8e7702e06aa12e49af3c470520100349",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study_project\src\main\resources\js" />
+      <recent name="D:\study_project\src\main\webapp" />
+      <recent name="D:\study_project\src\main\java\com.study\service\impl" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.68" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.68" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="study_project:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/study_project_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="e4992be8-de2d-44a5-b83d-3f0d8a2dc98d" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52799" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="study_project:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14fac4fc-3010-456c-8151-5578e76de4d1" name="Changes" comment="" />
+      <created>1697818787119</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697818787119</updated>
+      <workItem from="1697818788108" duration="2529000" />
+      <workItem from="1697855707142" duration="169000" />
+      <workItem from="1698023168596" duration="51000" />
+      <workItem from="1698024692450" duration="19000" />
+      <workItem from="1698330632606" duration="536000" />
+      <workItem from="1698367846341" duration="45000" />
+      <workItem from="1726319251060" duration="452000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

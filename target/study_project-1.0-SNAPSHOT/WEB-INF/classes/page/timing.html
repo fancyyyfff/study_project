@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/timing_style.css">
+    <link rel="stylesheet" href="../css/timing_styleRe.css">
+    <!-- <script src="../nodemodule/axios/dist/axios.min.js"></script> -->
+</head>
+
+<body>
+    <div class="color-block">
+        <p>Label</p>
+        <p>selection</p>
+    </div>
+    <div class="button-box">
+        <button id="study">学习</button><br>
+        <button id="work">工作</button><br>
+        <button id="read">阅读</button><br>
+        <button id="sport">运动</button><br>
+        <button id="other">其他</button>
+    </div>
+
+    <div class="container">
+        <div class="choose">
+            <div class="type" id="front">正计时</div>
+            <div class="type" id="upside">倒计时</div>
+
+        </div>
+
+        <div class="clock-page">
+            <div class="clock">
+                <div class="clock-item">
+                    <span class="hour">00</span>
+                    <span class="split">:</span>
+                </div>
+                <div class="clock-item">
+                    <span class="minute">00</span>
+                    <span class="split">:</span>
+                </div>
+                <div class="clock-item">
+                    <span class="second">00</span>
+                </div>
+            </div>
+            <div class="clock_words">
+                <h1>FIGHTING</h1>
+                <button id="study">学习</button>
+                <button id="work">工作</button>
+                <button id="read">阅读</button>
+                <button id="sport">运动</button>
+                <button id="other">其他</button>
+                <input type="text" placeholder="输入你的小目标~" id="task">
+            </div>
+            <div class="clock-button">
+                <button class="btn" id="stop">
+                    <svg t="1696402186233" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" p-id="9046" id="mx_n_1696402186235" width="48" height="40">
+                        <path
+                            d="M426.666667 138.666667v746.666666a53.393333 53.393333 0 0 1-53.333334 53.333334H266.666667a53.393333 53.393333 0 0 1-53.333334-53.333334V138.666667a53.393333 53.393333 0 0 1 53.333334-53.333334h106.666666a53.393333 53.393333 0 0 1 53.333334 53.333334z m330.666666-53.333334H650.666667a53.393333 53.393333 0 0 0-53.333334 53.333334v746.666666a53.393333 53.393333 0 0 0 53.333334 53.333334h106.666666a53.393333 53.393333 0 0 0 53.333334-53.333334V138.666667a53.393333 53.393333 0 0 0-53.333334-53.333334z"
+                            fill="#f7f1da" p-id="9047"></path>
+                    </svg>
+                </button>
+                <button class="btn" id="start">
+                    <svg t="1696402431577" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" p-id="11022" width="48" height="48">
+                        <path
+                            d="M305.031716 195.566094c0-15.954367 10.718109-21.556968 23.818475-12.45159l456.459033 317.265854c13.100366 9.105379 13.100366 24.00574 0 33.111119l-456.459033 317.263807c-13.100366 9.105379-23.818475 3.502777-23.818475-12.45159L305.031716 195.566094z"
+                            fill="#f7f1da" p-id="11023"></path>
+                    </svg>
+                </button>
+                <button class="btn" id="over">
+                    <svg t="1696402664438" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" p-id="12947" width="40" height="40">
+                        <path
+                            d="M777.8 896 244.2 896c-64.7 0-117.2-52.5-117.2-117.2L127 245.2c0-64.7 52.5-117.2 117.2-117.2l533.5 0C842.5 128 895 180.5 895 245.2l0 533.5C895 843.5 842.5 896 777.8 896z"
+                            p-id="12948" fill="#f7f1da"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="re-clock-page">
+            <div class="clock">
+                <div class="clock-item">
+                    <input type="text" class="hour" value="00">
+                    <span class="split">:</span>
+                </div>
+                <div class="clock-item">
+                    <input type="text" class="minute" value="00">
+                    <span class="split">:</span>
+                </div>
+                <div class="clock-item">
+                    <input type="text" class="second" value="00">
+                </div>
+            </div>
+            <div class="clock_words">
+                <h1>FIGHTING</h1>
+                <button id="study">学习</button>
+                <button id="work">工作</button>
+                <button id="read">阅读</button>
+                <button id="sport">运动</button>
+                <button id="other">其他</button>
+                <input type="text" placeholder="输入你的小目标~" id="task">
+            </div>
+            <div class="clock-button">
+                <button class="btn" id="re-stop">
+                    <svg t="1696402186233" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" p-id="9046" id="mx_n_1696402186235" width="48" height="40">
+                        <path
+                            d="M426.666667 138.666667v746.666666a53.393333 53.393333 0 0 1-53.333334 53.333334H266.666667a53.393333 53.393333 0 0 1-53.333334-53.333334V138.666667a53.393333 53.393333 0 0 1 53.333334-53.333334h106.666666a53.393333 53.393333 0 0 1 53.333334 53.333334z m330.666666-53.333334H650.666667a53.393333 53.393333 0 0 0-53.333334 53.333334v746.666666a53.393333 53.393333 0 0 0 53.333334 53.333334h106.666666a53.393333 53.393333 0 0 0 53.333334-53.333334V138.666667a53.393333 53.393333 0 0 0-53.333334-53.333334z"
+                            fill="#f7f1da" p-id="9047"></path>
+                    </svg>
+                </button>
+                <button class="btn" id="re-start">
+                    <svg t="1696402431577" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" p-id="11022" width="48" height="48">
+                        <path
+                            d="M305.031716 195.566094c0-15.954367 10.718109-21.556968 23.818475-12.45159l456.459033 317.265854c13.100366 9.105379 13.100366 24.00574 0 33.111119l-456.459033 317.263807c-13.100366 9.105379-23.818475 3.502777-23.818475-12.45159L305.031716 195.566094z"
+                            fill="#f7f1da" p-id="11023"></path>
+                    </svg>
+                </button>
+                <button class="btn" id="re-over">
+                    <svg t="1696402664438" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" p-id="12947" width="40" height="40">
+                        <path
+                            d="M777.8 896 244.2 896c-64.7 0-117.2-52.5-117.2-117.2L127 245.2c0-64.7 52.5-117.2 117.2-117.2l533.5 0C842.5 128 895 180.5 895 245.2l0 533.5C895 843.5 842.5 896 777.8 896z"
+                            p-id="12948" fill="#f7f1da"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="under-sten">
+        <span class="sentence">“但由</span>
+        <span class="sentence uniq">热爱</span>
+        <span class="sentence">，愿迎万难”</span>
+    </div>
+
+    <script src="../js/timing_script.js"></script>
+    <script src="../js/timing_scriptRe.js"></script>
+</body>
+
+</html>

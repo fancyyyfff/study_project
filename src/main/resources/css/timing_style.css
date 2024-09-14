@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    position:relative;
+
+}
+
+:root {
+    --text: #444;
+}
+
+body {
+    background-color: #f7f1da;
+    background-image: url(../image/timing_background.jpg);
+    background-repeat: repeat;
+}
+
+.container {
+    /* background-color: pink; */
+    margin: 5% auto 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.choose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type {
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 86px;
+    color: #585251;
+    position: relative;
+    cursor: pointer;
+    transition: all ease .2s;
+}
+
+.type :hover {
+    color: #000000;
+}
+
+#front {
+    color: #000000;
+}
+
+.clock {
+    /* background-color: green; */
+    width: 800px;
+    height: 170px;
+    margin: 0px auto;
+    margin-top:95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-item {
+    font-size: 100px;
+    font-weight: 700;
+    /* color: var(--text); */
+    color:#000000;
+}
+
+.clock_words h1{
+    font-size:35px;
+    font-family:华文新魏;
+    position:relative;
+    left:140px;
+    letter-spacing: 5px;
+    color:#585251;
+}
+
+.clock_words div{
+    display:inline;
+}
+
+input{
+    outline:none;
+}
+
+#task{
+    position:relative;
+    right:113px;
+    margin:20px 0px;
+    font-family: 微软雅黑;
+    font-size: 25px;
+    color:#656464;
+    border:none;
+    /* border-bottom:#585251 solid 1px; */
+    background-color: rgba(255,255,255,0);
+}
+
+.clock_words button{
+    background-color: rgba(255,255,255,0);
+    width: 80px;
+    height: 45px;
+    font-size: 24px;
+    border-radius:1ch;
+    border-style:solid;
+    border-width:4px;
+}
+
+.clock_words #study{
+    position: relative;
+    left:209px;
+}
+
+.clock_words #work{
+    position: relative;
+    left:125px;
+}
+
+.clock_words #read{
+    position: relative;
+    left:40px;
+}
+
+.clock_words #sport{
+    position: relative;
+    right:45px;
+}
+
+.clock_words #other{
+    position: relative;
+    right: 130px;
+}
+
+.split {
+    margin-right: 20px;
+}
+
+.clock-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0 50px;
+    border: none;
+    position: relative;
+}
+
+#stop {
+    background-color: #f6d55d;
+}
+
+#start {
+    background-color: #ea5438;
+}
+
+#start>svg {
+    position: absolute;
+    left: 14px;
+    top: 10px;
+}
+
+#over>svg {
+    position: absolute;
+    left: 16px;
+    top: 15px;
+}
+
+#over {
+    background-color: #93b6c8;
+}
+
+.re-clock-page {
+    display: none;
+}
+
+.under-sten {
+    width: 620px;
+    height: 100px;
+    margin: 80px auto 0 auto;
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--text);
+    font-family: cursive;
+}
+
+.uniq {
+    font-size: 60px;
+}
+
+/*分类按钮*/
+.color-block{
+    left:10%;
+    top:10%;
+    width:200px;
+    height:85px;
+    background-color: #82a164;
+    border:1.5px solid #82a164;
+    padding-top:27px;
+}
+
+.color-block p{
+    margin-left:30px;
+    font-size:30px;
+    font-family:华文新魏;
+    color:white;
+}
+
+.button-box{
+    position:absolute;
+    left:10%;
+    top:12%;
+    width:200px;
+    border:1.5px solid #82a164;
+}
+
+.button-box button{
+    z-index: 100;
+    background-color: rgba(255,255,255,0);
+    width: 80px;
+    height: 45px;
+    font-size: 24px;
+    border-radius:1ch;
+    border-style: solid;
+    border-width:4px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    margin:15px 60px;
+}
+
+#study{
+    margin-top:40px;
+    color:#38c68d;
+    border-color: #38c68d;
+}
+
+.button-box #study:hover{
+    background-color: #38c68d;
+    color:white;
+}
+
+#work{
+    color:#d33232;
+    border-color: #d33232;
+}
+
+.button-box #work:hover{
+    background-color: #d33232;
+    color:white;
+}
+
+
+#read{
+    color:#1176d4;
+    border-color: #1176d4;
+}
+
+.button-box #read:hover{
+    background-color: #1176d4;
+    color:white;
+}
+
+#sport{
+    color:#e1d600;
+    border-color: #e1d600;
+}
+
+.button-box #sport:hover{
+    background-color: #e1d600;
+    color:white;
+}
+
+#other{
+    margin-bottom:40px;
+    color:#e8a3d6;
+    border-color: #e8a3d6;
+}
+
+.button-box #other:hover{
+    background-color: #e8a3d6;
+    color:white;
+}

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --text: #444;
+}
+
+.clock-item input {
+    text-align: center;
+    width: 132px;
+    height: 124px;
+    line-height: 45px;
+    font-size: 100px;
+    font-weight: 700;
+    background-color: #000;
+    color: #fff;
+    border-radius: 15px;
+}
+
+#re-stop {
+    background-color: #f6d55d;
+}
+
+#re-start {
+    background-color: #ea5438;
+}
+
+#re-start>svg {
+    position: absolute;
+    left: 14px;
+    top: 10px;
+}
+
+#re-over>svg {
+    position: absolute;
+    left: 16px;
+    top: 15px;
+}
+
+#re-over {
+    background-color: #93b6c8;
+}

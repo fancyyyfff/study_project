@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timing</title>
+    <link rel="stylesheet" href="../css/Signin.css">
+    <script src="../nodemodule/axios/dist/axios.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../nodemodule/carhartl-jquery-cookie-v1.4.1/jquery.cookie.js"></script>
+</head>
+
+<body>
+    <div class="outter">
+        <div class="bg-img">
+            <img src="../image/main-bg.png">
+        </div>
+
+
+        <!-- 登陆界面 -->
+        <div class="container" id="up_form">
+            <div class="pagelay left_clickbutton  detail detail_L">
+                <h2 class="form_title">欢迎登录</h2>
+                <div class="page_border">
+                    <i class="svg"><svg t="1695474271088" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" p-id="6583" width="32" height="32">
+                            <path
+                                d="M256 153.6v716.8h512V153.6H256z m0-51.2h512a51.2 51.2 0 0 1 51.2 51.2v716.8a51.2 51.2 0 0 1-51.2 51.2H256a51.2 51.2 0 0 1-51.2-51.2V153.6a51.2 51.2 0 0 1 51.2-51.2z"
+                                fill="#e9e9e9" p-id="6584"></path>
+                            <path d="M409.6 716.8h204.8v51.2H409.6z" fill="#e9e9e9" p-id="6585"></path>
+                        </svg></i>
+                    <input type="tel" placeholder="Telephone" class="input" id="login_Telephone">
+                </div>
+
+                <div class="page_border">
+                    <i class="svg"><svg t="1695474233138" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" p-id="5464" width="32" height="32">
+                            <path
+                                d="M288 384v-74.666667c0-123.722667 100.266667-224 224-224s224 100.224 224 224v74.666667h10.677333C811.445333 384 864 436.597333 864 501.333333v320c0 64.821333-52.469333 117.333333-117.322667 117.333334H277.333333C212.554667 938.666667 160 886.069333 160 821.333333V501.333333c0-64.821333 52.469333-117.333333 117.322667-117.333333H288z m64 0h320v-74.666667c0-88.426667-71.605333-160-160-160-88.384 0-160 71.626667-160 160v74.666667zM224 501.333333v320c0 29.397333 23.914667 53.333333 53.322667 53.333334H746.666667A53.269333 53.269333 0 0 0 800 821.333333V501.333333c0-29.397333-23.914667-53.333333-53.322667-53.333333H277.333333A53.269333 53.269333 0 0 0 224 501.333333z"
+                                fill="#e9e9e9" p-id="5465"></path>
+                        </svg></i>
+                    <input type="password" placeholder="Password" class="input" id="login_password">
+                </div>
+                <div class="error">
+                    <font>Wrong telephone！</font>
+                </div>
+                <div class="error">
+                    <font>Wrong password！</font>
+                </div>
+
+                <a href="script:;" class="change_password" >Forgot your password?</a>
+                <button class="btn page_click">登录</button>
+            </div>
+
+
+            <div class="pagelay right_clickbutton">
+                <button class="btn" id="signup_click"> 没有账号，点击注册
+                </button>
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="container under" id="under_form">
+            <div class="container_layout">
+                <div class="pagelay left_clickbutton">
+                    <button class="btn" id="signin_click">已有账号，直接登陆</button>
+                </div>
+
+
+                <!-- 注册页面 -->
+                <div class="pagelay right_clickbutton detail detail_R">
+                    <h2 class="form_title">注册账号</h2>
+                    <div class="page_border">
+                        <i class="svg"><svg t="1695474271088" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" p-id="6583" width="32" height="32">
+                                <path
+                                    d="M256 153.6v716.8h512V153.6H256z m0-51.2h512a51.2 51.2 0 0 1 51.2 51.2v716.8a51.2 51.2 0 0 1-51.2 51.2H256a51.2 51.2 0 0 1-51.2-51.2V153.6a51.2 51.2 0 0 1 51.2-51.2z"
+                                    fill="#e9e9e9" p-id="6584"></path>
+                                <path d="M409.6 716.8h204.8v51.2H409.6z" fill="#e9e9e9" p-id="6585"></path>
+                            </svg></i>
+                        <input type="tel" placeholder="Telephone" class="input" id="register_Telephone">
+                    </div>
+
+                    <div class="page_border">
+                        <i class="svg"><svg t="1695478401005" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" p-id="15558" width="32" height="32">
+                                <path
+                                    d="M501.11 604.471h18.767c15.538 0 28.15 12.613 28.15 28.151v131.38c0 15.537-12.612 28.15-28.17 28.15H501.09c-15.559 0-28.152-12.613-28.152-28.15v-131.38c0.017-15.538 12.61-28.15 28.172-28.15z m309.676-93.844v338.508c0 20.323-16.818 36.858-37.539 36.858H247.735c-20.7 0-37.535-16.536-37.535-36.858V510.627h600.586m56.305-56.302H153.895v394.81c0 51.463 42.004 93.163 93.84 93.163h525.512c51.84 0 93.844-41.7 93.844-93.163v-394.81z m-75.072 0h-56.307V398.02c0-126.61-105.72-225.22-225.22-225.22-122.444 0-225.219 102.756-225.219 225.22v56.306H228.97V398.02c0-153.505 128.02-281.525 281.525-281.525 151.57 0 281.526 122.802 281.526 281.525v56.306h-0.001z m0 0"
+                                    fill="#e9e9e9" p-id="15559"></path>
+                            </svg></i>
+                        <input type="password" placeholder="SetPassword" class="input" id="register_password">
+
+
+                    </div>
+
+                    <div class="page_border">
+                        <i class="svg"><svg t="1695478309620" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" p-id="14101" width="32" height="32">
+                                <path
+                                    d="M837.6832 460.8h-69.632V233.472A130.56 130.56 0 0 0 638.5152 102.4h-252.928a130.56 130.56 0 0 0-129.536 131.072V460.8h-69.632a32.768 32.768 0 0 0-32.768 34.816v393.216c0 18.0736 14.6944 32.768 32.768 32.768h651.264a32.768 32.768 0 0 0 32.768-32.768V495.616a32.768 32.768 0 0 0-32.768-34.816z m-508.928-227.328a57.344 57.344 0 0 1 56.832-57.344h252.928a57.344 57.344 0 0 1 56.832 57.344V460.8h-366.592V233.472z m468.48 614.4H226.8672v-311.296h570.368v311.296z"
+                                    fill="#e9e9e9" p-id="14102"></path>
+                                <path
+                                    d="M475.6992 783.872a24.064 24.064 0 0 1-17.92-7.68l-66.048-66.048a25.344 25.344 0 0 1 35.84-35.84l48.128 47.616 102.4-99.84a25.344 25.344 0 1 1 35.84 35.84l-120.32 118.272a24.064 24.064 0 0 1-17.92 7.68z"
+                                    fill="#e9e9e9" p-id="14103"></path>
+                            </svg></i>
+                        <input type="password" placeholder="ConfirmPassword" class="input" id="register_password2">
+
+
+                    </div>
+
+                    <div class='error' id="error_color">
+                        <font>密码不少于6位</font>
+                    </div>
+                    <div class='error'>
+                        <font>Wrong telephone！</font>
+                    </div>
+                    <div class="error">
+                        <font>Wrong Confirm Password!</font>
+                    </div>
+                    <div class="success">
+                        <font>Register SUCCESS</font>
+                    </div>
+
+                    <button class="btn page_click enroll">点击注册</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="../js/Signin.js"></script>
+    <script src="../js/response_Signin.js"></script>
+
+</body>
+
+</html>
